@@ -18,8 +18,9 @@ A C++ class for representing a banking system
 | Method Signature             | Return Type   | Description               |
 |------------------------------|---------------|---------------------------|
 | `BankAccount()`              | (Constructor) | Default constructor       |
-| `BankAccount(accountHolderName, accountNumber, balance)` | (Constructor) | Parameterized constructor |
+| `BankAccount(accountNum, nameAccHolder, numBalance)` | (Constructor) | Parameterized constructor |
 | `getAccountHolderName() const` | `std::string` | Gets the account holder name. |
 | `getAccountNumber() const`   | `std::string` | Gets the account number.  |
+| `getBalance() const`         | `double`      | Gets the account balance. |
 | `deposit()`                  | `void`        | Add money to account.     |
 | `withdraw()`                 | `void`        | Take money from account.  |
