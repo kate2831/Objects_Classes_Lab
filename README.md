@@ -21,6 +21,5 @@ A C++ class for representing a banking system
 | `BankAccount(accountHolderName, accountNumber, balance)` | (Constructor) | Parameterized constructor |
 | `getAccountHolderName() const` | `std::string` | Gets the account holder name. |
 | `getAccountNumber() const`   | `std::string` | Gets the account number.  |
-| `getBalance() const`         | `std::string` | Gets the account's current balance. |
 | `deposit()`                  | `void`        | Add money to account.     |
 | `withdraw()`                 | `void`        | Take money from account.  |
